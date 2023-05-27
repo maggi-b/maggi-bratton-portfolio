@@ -1,5 +1,45 @@
 /*---Projects List Styles---*/
-
+* {
+  color: #453e4f;
+}
 li img {
-  width: 50%;
+  width: 90%;
+  margin: 20px 0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(69, 62, 79, 0.4);
+}
+
+li p.project-name {
+  font-size: 1.6em;
+  font-family: "Alike", serif;
+  padding-bottom: 40px;
+}
+li p.project-description {
+  font-size: 1.1em;
+  text-align: left;
+  padding: 40px 30px 30px 30px;
+}
+li p.skills-container,
+li p.tools-container {
+  font-size: 1.1em;
+  text-align: left;
+}
+li p.skills-container {
+  padding: 0 30px 10px 30px;
+}
+li p.tools-container {
+  padding: 0 30px 10px 30px;
+  margin-bottom: 40px;
+}
+li a.site-link {
+  display: inline-block;
+  background-color: #453e4f;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 15px 60px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 40px;
 }
