@@ -1,8 +1,8 @@
-import github from "./img/github-repo-gallery-thumbnail.png";
-import sticky from "./img/super-sticky-notes-app-thumbnail.png";
-import word from "./img/guess-the-word-thumbnail.png";
-import unplugged from "./img/responsive-unplugged-thumbnail.png";
-import rogue from "./img/responsive-rogue-pickings-thumbnail.png";
+import github from "../img/github-repo-gallery-thumbnail.png";
+import sticky from "../img/super-sticky-notes-app-thumbnail.png";
+import word from "../img/guess-the-word-thumbnail.png";
+import unplugged from "../img/responsive-unplugged-thumbnail.png";
+import rogue from "../img/responsive-rogue-pickings-thumbnail.png";
 
 
 

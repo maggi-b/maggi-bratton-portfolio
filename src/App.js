@@ -1,11 +1,11 @@
-import './App.css';
+
 
 //Importing array of project objects
-import projects from './data';
+import projects from './projects/data';
 
 
 //Importing mapped array
-import ProjectMap from './ProjectMap';
+import ProjectMap from './projects/ProjectMap'
 
 
 
