@@ -60,14 +60,14 @@ header nav ul li#contact:hover {
 
 /*Heading Styles*/
 header h1 {
-  font-size: 3em;
+  font-size: 2em;
   padding: 0 45px 30px 45px;
   line-height: 1.5em;
 }
 header h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 1.5em;
-  padding: 0 45px 30px 45px;
+  padding: 0 45px 60px 45px;
 }
 header h1,
 h2 {
@@ -83,4 +83,74 @@ h2 {
   font-family: "Alike", serif;
   font-size: 1.8em;
   padding: 80px 0 20px 0;
+}
+
+/*---Skills and Tools Style---*/
+.skills-section {
+  background: #ffe8d6;
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+.skills-section h3 {
+  font-size: 1.8em;
+  font-family: "Alike", serif;
+  padding: 60px 0 40px 0;
+}
+.skills-section h4 {
+  font-size: 1.3em;
+  font-family: "Alike", serif;
+  padding-bottom: 20px;
+}
+.skills-section p {
+  background-color: #f19494;
+  margin: 20px 40px;
+  padding: 18px 0;
+  text-transform: uppercase;
+}
+.skills-section h4.tech-heading {
+  padding-top: 20px;
+}
+
+/*---About Section Styles---*/
+.about-container {
+  padding: 80px 0 0 0;
+}
+.about-container h3 {
+  font-family: "Alike", serif;
+  font-size: 1.8em;
+  padding: 40px 40px 60px 40px;
+}
+.about-container h4 {
+  font-size: 1.3em;
+  font-family: "Alike", serif;
+  padding: 0 40px 40px 20px;
+  line-height: 1.5em;
+}
+.about-container p.bio {
+  padding: 20px 35px 30px 35px;
+  text-align: left;
+}
+.about-container p.sentiment {
+  padding: 0 35px 80px 35px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/*---Contact Section Styles---*/
+.contact-container {
+  background: #ffe8d6;
+  padding-bottom: 60px;
+}
+.contact-container h3 {
+  font-size: 1.8em;
+  font-family: "Alike", serif;
+  padding: 80px 40px 0 40px;
+}
+.contact-container h4 {
+  font-size: 1.3em;
+  font-family: "Alike", serif;
+  padding: 60px 40px 30px 40px;
+}
+.contact-container div.copyright p {
+  padding-top: 60px;
 }

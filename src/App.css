@@ -11,18 +11,18 @@ li img {
 }
 
 li p.project-name {
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-family: "Alike", serif;
   padding-bottom: 40px;
 }
 li p.project-description {
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: left;
-  padding: 40px 30px 30px 30px;
+  padding: 0 30px 30px 30px;
 }
 li p.skills-container,
 li p.tools-container {
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: left;
 }
 li p.skills-container {
@@ -36,10 +36,13 @@ li a.site-link {
   display: inline-block;
   background-color: #453e4f;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.1em;
   padding: 15px 60px;
   border-radius: 40px;
   text-transform: uppercase;
   color: white;
   margin-bottom: 40px;
+}
+li a.site-link:hover {
+  background-color: rgba(69, 62, 79, 0.8);
 }
