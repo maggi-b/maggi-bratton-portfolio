@@ -10,7 +10,7 @@ pastel pink/yellow: #FFE8D6
 blue: #E8EFF7
 mustard: #E9B14C 
 */
-
+/*===Coded Mobile First===*/
 /*---Global Styles---*/
 * {
   box-sizing: border-box;
@@ -20,7 +20,6 @@ mustard: #E9B14C
 body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
-  display: flex;
   text-align: center;
   color: #453e4f;
 }
@@ -56,6 +55,9 @@ header nav ul li#contact {
 }
 header nav ul li#contact:hover {
   background-color: rgba(241, 148, 148, 0.5);
+}
+header nav ul li a {
+  text-decoration: none;
 }
 
 /*Heading Styles*/
@@ -153,4 +155,34 @@ h2 {
 }
 .contact-container div.copyright p {
   padding-top: 60px;
+}
+
+.social-container i {
+  font-size: 1.8em;
+  padding: 0 10px 0 10px;
+}
+
+/*===Tablet Styles===*/
+@media only screen and (min-width: 768px) {
+  /*---Header Styles---*/
+  header nav ul {
+    padding: 80px;
+    font-size: 1.1em;
+  }
+  header h1 {
+    font-size: 2.6em;
+    padding: 0 80px 80px 80px;
+    line-height: 1.5em;
+  }
+  header h2 {
+    font-size: 1.7em;
+    line-height: 1.5em;
+    padding: 0 80px 80px 80px;
+  }
+
+  /*---Projects Section Styles---*/
+  /*=Most styles for this section are in App.css==*/
+}
+/*===Desktop Styles===*/
+@media only screen and (min-width: 1200px) {
 }

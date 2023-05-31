@@ -32,6 +32,10 @@
       href="https://fonts.googleapis.com/css2?family=Alike&family=Open+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/117c4858f5.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Maggi's Portfolio</title>
   </head>
   <body>
@@ -40,10 +44,10 @@
         <div class="content-wrapper">
           <nav>
             <ul>
-              <li id="project">Projects</li>
-              <li id="skills">Skills</li>
-              <li id="about">About</li>
-              <li id="contact">Contact</li>
+              <li id="projects"><a href="#project-heading">Projects</a></li>
+              <li id="skills"><a href="#skill-heading">Skills</a></li>
+              <li id="about"><a href="#about-heading">About</a></li>
+              <li id="contact"><a href="#contact-heading">Contact Me</a></li>
             </ul>
           </nav>
           <h1>Hi there, I'm Maggi Bratton!</h1>
@@ -55,13 +59,13 @@
       </header>
       <section class="projects-container">
         <div class="content-wrapper">
-          <h3>Projects</h3>
+          <h3 id="projects-heading">Projects</h3>
           <ul id="root"></ul>
         </div>
       </section>
       <section class="skills-section">
         <div class="content-wrapper">
-          <h3 class="skill-heading">Skills</h3>
+          <h3 id="skill-heading">Skills</h3>
           <div class="dev-skills">
             <h4>Developer Skills</h4>
             <p>HTML and CSS</p>
@@ -80,15 +84,19 @@
       </section>
       <section class="about-container">
         <div class="content-wrapper">
-          <h3>Hey! I'm Maggi.</h3>
+          <h3 id="about-heading">Hey! I'm Maggi.</h3>
           <h4>
             I'm a Front End Web Developer who loves to create impactful and
             responsive websites.
           </h4>
           <p class="bio">
-            I live in NoCo with my husband and three dogs. When I'm not coding,
-            you can find me hanging with my dogs, watching a movie, or spending
-            time with my friends and family.
+            I went to school to become an elementary teacher. When I graduated,
+            I realized that my real passion is in tech. I want to make a
+            difference in the world and web development is a place I can do that
+            through creating beautiful and meaningful websites. I live in NoCo
+            with my husband and three dogs. When I'm not coding, you can find me
+            hanging with my dogs, watching a movie, or spending time with my
+            friends and family.
           </p>
           <p class="sentiment">I'm looking forward to working with you!</p>
         </div>
@@ -96,7 +104,7 @@
       <footer class="contact-container">
         <div class="content-wrapper">
           <div class="contact-content">
-            <h3>Get in Touch</h3>
+            <h3 id="contact-heading">Get in Touch</h3>
             <div class="hire-container">
               <h4>Let's work together</h4>
               <p>970-568-2169</p>
@@ -104,12 +112,15 @@
             </div>
             <div class="social-container">
               <h4>Socials</h4>
-              <a href="https://github.com/maggi-b">GitHub</a>
-              <a href="https://www.linkedin.com/in/maggi-bratton/">LinkedIn</a>
+              <a href="https://github.com/maggi-b"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/maggi-bratton/"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
             </div>
             <div class="location-container">
-              <h4>Meet me for coffee</h4>
-              <p>Northern Colorado</p>
+              <h4>Let's meet for coffee!</h4>
             </div>
             <div class="copyright">
               <p>Copyright 2023 | Maggi Bratton</p>

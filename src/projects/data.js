@@ -10,7 +10,7 @@ const projects = [
     {
         id: "001",
         name: "GitHub Repo Gallery",
-        explanation: "Placeholder text",
+        explanation: "This site uses GitHub's API to access my profile and repositories. Users can click on each repository to see more details and a link to the repository on GitHub.",
         image: github,
         skills: "JavaScript",
         tools: "Rest APIs, GitHub Pages",
@@ -19,7 +19,7 @@ const projects = [
     {
         id: "002",
         name:"Unplugged",
-        explanation: "Placeholder text",
+        explanation: "Unplugged is a responsive multi-page site that I coded using Flexbox. It includes many sections with different layouts that can be reused on other sites.",
         image: unplugged,
         skills: "HTMl, CSS, Flexbox",
         tools: "GitHub Pages, Chrome DevTools",
@@ -28,7 +28,7 @@ const projects = [
     {
         id: "003",
         name: "Super Sticky Notes",
-        explanation: "Placeholder text",
+        explanation: "Super Sticky Notes is a web app that allows the user to create, delete, edit, and search for sticky notes.",
         image: sticky,
         skills: "React, JSX, Components",
         tools: "CodeSandBox, Props, State",
@@ -37,7 +37,7 @@ const projects = [
     {
         id: "004",
         name: "Rogue Pickings",
-        explanation: "Placeholder text",
+        explanation: "Rogue Pickings is a straightforward home page that was originally a static site that I updated to be responsive using Flexbox.",
         image: rogue,
         skills: "HTML, CSS, Flexbox",
         tools: "GitHub Pages, Chrome DevTools",
@@ -46,7 +46,7 @@ const projects = [
     {
         id: "005",
         name: "Guess the Word Game",
-        explanation: "Placeholder text",
+        explanation: "When playing this game, the user will enter one letter a time to guess the word. If they guess all the letters correctly before they run out of guesses, they win!",
         image: word,
         skills: "JavaScript",
         tools: "GitHub Pages, JSON",

@@ -46,3 +46,10 @@ li a.site-link {
 li a.site-link:hover {
   background-color: rgba(69, 62, 79, 0.8);
 }
+
+/*===Tablet Styles===*/
+@media only screen and (min-width: 768px) {
+}
+/*===Desktop Styles===*/
+@media only screen and (min-width: 1200px) {
+}
