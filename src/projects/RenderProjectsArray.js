@@ -3,7 +3,7 @@ import projects from "./data";
 import '../App.css';
 
 const RenderProject = (project) => (
-    <li className="projects-list" key={project.id}>
+    <li className="project-list-item" key={project.id}>
         <img src={project.image} alt={project.name}></img>
         <p className="project-name">{project.name}</p>
         <p className="project-description">{project.explanation}</p>

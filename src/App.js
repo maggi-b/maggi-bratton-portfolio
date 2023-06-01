@@ -1,5 +1,3 @@
-
-
 //Importing array of project objects
 import projects from './projects/data';
 

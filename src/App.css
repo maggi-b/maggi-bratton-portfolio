@@ -49,6 +49,21 @@ li a.site-link:hover {
 
 /*===Tablet Styles===*/
 @media only screen and (min-width: 768px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  li img,
+  li p,
+  li a {
+  }
 }
 /*===Desktop Styles===*/
 @media only screen and (min-width: 1200px) {
