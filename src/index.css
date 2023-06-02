@@ -105,7 +105,7 @@ h2 {
   padding: 60px 0 40px 0;
 }
 .skills-section h4 {
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-family: "Alike", serif;
   padding-bottom: 20px;
 }
@@ -121,7 +121,7 @@ h2 {
 
 /*---About Section Styles---*/
 .about-container {
-  padding: 80px 0 0 0;
+  padding-top: 80px;
 }
 .about-container h3 {
   font-family: "Alike", serif;
@@ -131,7 +131,7 @@ h2 {
 .about-container h4 {
   font-size: 1.3em;
   font-family: "Alike", serif;
-  padding: 0 40px 40px 20px;
+  padding: 0 40px 40px 40px;
   line-height: 1.5em;
 }
 .about-container p.bio {
@@ -159,13 +159,19 @@ h2 {
   font-family: "Alike", serif;
   padding: 60px 40px 30px 40px;
 }
+.contact-container p {
+  line-height: 1.7em;
+}
+.hire-container p a {
+  cursor: pointer;
+  text-decoration: none;
+}
 .contact-container div.copyright p {
   padding-top: 60px;
 }
-
 .social-container i {
   font-size: 1.8em;
-  padding: 0 10px 0 10px;
+  padding: 0 15px 0 15px;
 }
 
 /*===Tablet Styles===*/
@@ -188,6 +194,93 @@ h2 {
 
   /*---Projects Section Styles---*/
   /*=Most styles for this section are in App.css==*/
+  .projects-container h3 {
+    padding-bottom: 80px;
+    font-size: 2em;
+  }
+
+  /*---Skills and Tools Style---*/
+  .skills-section {
+    padding-bottom: 120px;
+  }
+  .skills-section h3 {
+    font-size: 2em;
+    padding: 80px 0 40px 0;
+  }
+  .skills-section h4 {
+    font-size: 1.6em;
+    padding-bottom: 30px;
+  }
+  .skills-section p {
+    margin: 20px;
+  }
+  div.flex-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  div.flex-skills p {
+    font-size: 1.2em;
+    width: 40%;
+  }
+  div.tools h4.tech-heading {
+    padding-top: 40px;
+  }
+
+  /*---About Section Styles---*/
+  .about-container {
+    padding-top: 120px;
+  }
+  .about-container h3 {
+    font-size: 2em;
+    padding: 80px;
+  }
+  .about-container h4 {
+    font-size: 1.6em;
+    padding: 0 50px 60px 50px;
+    line-height: 1.8em;
+    text-align: left;
+  }
+  .about-container p.bio {
+    font-size: 1.2em;
+    padding: 0 50px 30px 50px;
+  }
+  .about-container p.sentiment {
+    font-size: 1.2em;
+    padding: 0 50px 120px 50px;
+  }
+
+  /*---Contact Section Styles---*/
+  .contact-container {
+    padding-bottom: 80px;
+  }
+  .contact-container h3 {
+    font-size: 2em;
+    padding: 120px 50px 0 50px;
+  }
+  .contact-container h4 {
+    font-size: 1.6em;
+    padding: 0 0 30px 0;
+  }
+  .contact-container p {
+    font-size: ;
+    font-size: 1.2em;
+  }
+  .contact-container div.flex-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 80px 50px 0 50px;
+  }
+  div.hire-container,
+  div.social-container,
+  div.location-container {
+    flex-basis: 33.333%;
+  }
+  .social-container i {
+    font-size: 2.2em;
+  }
 }
 /*===Desktop Styles===*/
 @media only screen and (min-width: 1200px) {

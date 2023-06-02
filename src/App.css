@@ -1,6 +1,10 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Alike&family=Open+Sans:wght@400;600;700&display=swap");
+
 /*---Projects List Styles---*/
 * {
   color: #453e4f;
+  font-family: "Open Sans", sans-serif;
 }
 li {
   list-style-type: none;
@@ -10,7 +14,7 @@ li img {
   margin: 20px 0;
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(69, 62, 79, 0.4);
+  box-shadow: 0 0 10px rgba(69, 62, 79, 0.2);
 }
 
 li p.project-name {
@@ -35,6 +39,9 @@ li p.tools-container {
   padding: 0 30px 10px 30px;
   margin-bottom: 40px;
 }
+li span {
+  font-weight: 700;
+}
 li a.site-link {
   display: inline-block;
   background-color: #453e4f;
@@ -56,9 +63,25 @@ li a.site-link:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 60px;
   }
   li {
     width: 50%;
+  }
+  li p.project-name {
+    font-size: 1.6em;
+  }
+  li p.project-description {
+    padding: 0 35px 30px 35px;
+    font-size: 1.2em;
+  }
+  li p.skills-container,
+  li p.tools-container {
+    padding: 0 35px 10px 35px;
+    font-size: 1.2em;
+  }
+  li a.site-link {
+    font-size: 1.3em;
   }
 }
 /*===Desktop Styles===*/

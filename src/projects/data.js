@@ -28,7 +28,7 @@ const projects = [
     {
         id: "003",
         name: "Super Sticky Notes",
-        explanation: "Super Sticky Notes is a web app that allows the user to create, delete, edit, and search for sticky notes.",
+        explanation: "Super Sticky Notes is a web app developed using multiple React components. The user to create, delete, edit, and search for sticky notes.",
         image: sticky,
         skills: "React, JSX, Components",
         tools: "CodeSandBox, Props, State",
@@ -46,7 +46,7 @@ const projects = [
     {
         id: "005",
         name: "Guess the Word Game",
-        explanation: "When playing this game, the user will enter one letter a time to guess the word. If they guess all the letters correctly before they run out of guesses, they win!",
+        explanation: "When playing this game, the user will enter one letter at a time to guess the word. If they guess all the letters correctly before they run out of guesses, they win!",
         image: word,
         skills: "JavaScript",
         tools: "GitHub Pages, JSON",
