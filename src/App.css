@@ -6,10 +6,10 @@
   color: #453e4f;
   font-family: "Open Sans", sans-serif;
 }
-li {
+li.project-list-item {
   list-style-type: none;
 }
-li img {
+li.project-list-item img {
   width: 90%;
   margin: 20px 0;
   border: none;
@@ -17,32 +17,32 @@ li img {
   box-shadow: 0 0 10px rgba(69, 62, 79, 0.2);
 }
 
-li p.project-name {
+li.project-list-item p.project-name {
   font-size: 1.4em;
   font-family: "Alike", serif;
   padding-bottom: 40px;
 }
-li p.project-description {
+li.project-list-item p.project-description {
   font-size: 1em;
   text-align: left;
   padding: 0 30px 30px 30px;
 }
-li p.skills-container,
-li p.tools-container {
+li.project-list-item p.skills-container,
+li.project-list-item p.tools-container {
   font-size: 1em;
   text-align: left;
 }
-li p.skills-container {
+li.project-list-item p.skills-container {
   padding: 0 30px 10px 30px;
 }
-li p.tools-container {
+li.project-list-item p.tools-container {
   padding: 0 30px 10px 30px;
   margin-bottom: 40px;
 }
-li span {
+li.project-list-item span {
   font-weight: 700;
 }
-li a.site-link {
+li.project-list-item a.site-link {
   display: inline-block;
   background-color: #453e4f;
   text-decoration: none;
@@ -53,7 +53,7 @@ li a.site-link {
   color: white;
   margin-bottom: 40px;
 }
-li a.site-link:hover {
+li.project-list-item a.site-link:hover {
   background-color: rgba(69, 62, 79, 0.8);
 }
 
@@ -65,25 +65,34 @@ li a.site-link:hover {
     justify-content: center;
     margin: 0 60px;
   }
-  li {
+  li.project-list-item {
     width: 50%;
   }
-  li p.project-name {
+  li.project-list-item p.project-name {
     font-size: 1.6em;
   }
-  li p.project-description {
+  li.project-list-item p.project-description {
     padding: 0 35px 30px 35px;
     font-size: 1.2em;
   }
-  li p.skills-container,
-  li p.tools-container {
+  li.project-list-item p.skills-container,
+  li.project-list-item p.tools-container {
     padding: 0 35px 10px 35px;
     font-size: 1.2em;
   }
-  li a.site-link {
+  li.project-list-item a.site-link {
     font-size: 1.3em;
   }
 }
 /*===Desktop Styles===*/
 @media only screen and (min-width: 1200px) {
+  ul.projects-unordered-list {
+    margin: 0 30px;
+  }
+  li.project-list-item {
+    width: 33.333%;
+  }
+  li.project-list-item p.project-name {
+    font-size: 1.8em;
+  }
 }
