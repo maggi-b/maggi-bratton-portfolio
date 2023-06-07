@@ -281,11 +281,14 @@ h2 {
   .social-container i {
     font-size: 2.2em;
   }
+  .contact-container div.copyright p {
+    padding-top: 80px;
+  }
 }
 /*===Desktop Styles===*/
 @media only screen and (min-width: 1200px) {
   /*---Header Styles---*/
-  header nav {
+  header header nav {
     padding: 0 80px;
     justify-content: flex-end;
   }
@@ -299,7 +302,9 @@ h2 {
   header h2 {
     font-size: 2em;
     line-height: 1.5em;
-    padding: 0 150px 140px 150px;
+    padding: 0 80px 140px 80px;
+    width: 60%;
+    margin: 0 auto;
   }
   /*---Projects Section Styles---*/
   /*=Most styles for this section are in App.css==*/
@@ -322,5 +327,42 @@ h2 {
   }
   .skills-section h4 {
     font-size: 1.8em;
+  }
+
+  /*---About Section Styles---*/
+  .about-container {
+    padding-top: 140px;
+  }
+  .about-container h3 {
+    font-size: 2.5em;
+    padding: 40px;
+  }
+  .about-container h4 {
+    font-size: 1.8em;
+    padding: 0 80px 60px 80px;
+  }
+  .about-container p.bio {
+    padding: 0 80px 30px 80px;
+  }
+  .about-container p.sentiment {
+    padding: 0 80px 160px 80px;
+  }
+
+  /*---Contact Section Styles---*/
+  .contact-container {
+    padding-bottom: 140px;
+  }
+  .contact-container h3 {
+    font-size: 2.5em;
+    padding: 160px 50px 0 50px;
+  }
+  .contact-container h4 {
+    font-size: 1.8em;
+  }
+  .contact-container div.flex-contact {
+    padding: 80px 150px 0 150px;
+  }
+  .contact-container div.copyright p {
+    padding-top: 60px;
   }
 }
