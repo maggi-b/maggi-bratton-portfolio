@@ -31,7 +31,8 @@ body {
 }
 /*---Header Styles---*/
 header {
-  background: #ffe8d6;
+  background: #e8eff7;
+  color: #453e4f;
 }
 /*Nav Styles*/
 header nav {
@@ -50,13 +51,15 @@ header nav ul li {
   font-weight: 700;
   cursor: pointer;
 }
-header nav ul li#contact {
-  background: #f19494;
-  border-radius: 20px;
-  padding: 10px;
-}
 header nav ul li a {
   text-decoration: none;
+  color: #453e4f;
+}
+header nav ul li#contact {
+  background: #e9b14c;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
 }
 
 /*Heading Styles*/
@@ -88,7 +91,7 @@ h2 {
 
 /*---Skills and Tools Style---*/
 .skills-section {
-  background: #ffe8d6;
+  background: #e8eff7;
   margin-top: 20px;
   padding-bottom: 80px;
 }
@@ -103,7 +106,7 @@ h2 {
   padding-bottom: 20px;
 }
 .skills-section p {
-  background-color: #f19494;
+  background-color: #e9b14c;
   margin: 20px 40px;
   padding: 18px 0;
   text-transform: uppercase;
@@ -139,7 +142,7 @@ h2 {
 
 /*---Contact Section Styles---*/
 .contact-container {
-  background: #ffe8d6;
+  background: #e8eff7;
   padding-bottom: 60px;
 }
 .contact-container h3 {
@@ -158,13 +161,16 @@ h2 {
 .hire-container p a {
   cursor: pointer;
   text-decoration: none;
+  color: #453e4f;
 }
 .contact-container div.copyright p {
   padding-top: 60px;
 }
 .social-container i {
   font-size: 1.8em;
-  padding: 0 15px 0 15px;
+  padding: 15px;
+  margin: 0 10px;
+  color: #453e4f;
 }
 
 /*===Tablet Styles===*/
