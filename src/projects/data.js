@@ -28,7 +28,7 @@ const projects = [
     {
         id: "003",
         name: "Super Sticky Notes",
-        explanation: "Super Sticky Notes is a web app developed using multiple React components. The user to create, delete, edit, and search for sticky notes.",
+        explanation: "Super Sticky Notes is a web app developed using multiple React components. The user can create, delete, edit, and search for sticky notes.",
         image: sticky,
         skills: "React, JSX, Components",
         tools: "CodeSandBox, Props, State",
