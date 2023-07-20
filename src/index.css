@@ -12,6 +12,9 @@ mustard: #E9B14C
 */
 /*===Coded Mobile First===*/
 /*---Global Styles---*/
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -29,6 +32,10 @@ body {
   min-height: 100vh;
   width: 100%;
 }
+.site-wrapper {
+  max-width: 1450px;
+  margin: 0 auto;
+ }
 /*---Header Styles---*/
 header {
   background: #e8eff7;
@@ -299,6 +306,8 @@ h2 {
 }
 /*===Desktop Styles===*/
 @media only screen and (min-width: 1200px) {
+  /*---Global Styles---*/
+
   /*---Header Styles---*/
   header nav {
     padding: 0 80px;
@@ -318,6 +327,7 @@ h2 {
     width: 60%;
     margin: 0 auto;
   }
+
   /*---Projects Section Styles---*/
   /*=Most styles for this section are in App.css==*/
   .projects-container h3 {
@@ -342,14 +352,15 @@ h2 {
   }
 
   /*---About Section Styles---*/
-  .about-container {
-    padding-top: 140px;
-  }
   .about-container .content-wrapper {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 0 50px 160px 50px;
+  }
+  .about-site-wrapper {
+    max-width: 1450px;
+    margin: 0 auto;
   }
   .about-text {
     width: 50%;
