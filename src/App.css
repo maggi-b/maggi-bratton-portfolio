@@ -1,8 +1,95 @@
 /*Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Alike&family=Open+Sans:wght@400;600;700&display=swap");
 
-/*---Projects List Styles---*/
 
+/* colors
+purple: #453E4F
+pink: #F19494
+pastel pink/yellow: #FFE8D6 
+blue: #E8EFF7
+mustard: #E9B14C 
+*/
+
+
+/*===Coded Mobile First===*/
+/*---Global Styles---*/
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #453e4f;
+  min-height: 100vh;
+  width: 100%;
+}
+.site-wrapper {
+  max-width: 1450px;
+  margin: 0 auto;
+ }
+/*---Header Styles---*/
+header {
+  background: #e8eff7;
+  color: #453e4f;
+}
+/*Nav Styles*/
+header nav {
+  font-size: 0.95em;
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 20px 60px 20px;
+}
+header nav ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #453e4f;
+}
+header nav ul li#contact {
+  background: #e9b14c;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/*Heading Styles*/
+header h1 {
+  font-size: 2em;
+  padding: 0 45px 30px 45px;
+  line-height: 1.5em;
+}
+header h2 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 0 45px 60px 45px;
+}
+header h1,
+h2 {
+  font-family: "Alike", serif;
+}
+/*---Projects Section Styles---*/
+.projects-container {
+  background-color: white;
+}
+.projects-container h3 {
+  font-family: "Alike", serif;
+  font-size: 1.8em;
+  padding: 80px 0 20px 0;
+}
 li.project-list-item {
   list-style-type: none;
   color: #453e4f;
@@ -57,8 +144,125 @@ li.project-list-item a.site-link:hover {
   background-color: rgba(69, 62, 79, 0.8);
 }
 
+/*---Skills and Tools Style---*/
+.skills-section {
+  background: #e8eff7;
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+.skills-section h3 {
+  font-size: 1.8em;
+  font-family: "Alike", serif;
+  padding: 60px 0 40px 0;
+}
+.skills-section h4 {
+  font-size: 1.4em;
+  font-family: "Alike", serif;
+  padding-bottom: 20px;
+}
+.skills-section p {
+  background-color: #e9b14c;
+  margin: 20px 40px;
+  padding: 18px 0;
+  text-transform: uppercase;
+}
+.skills-section h4.tech-heading {
+  padding-top: 20px;
+}
+
+/*---About Section Styles---*/
+.about-container {
+  padding-top: 80px;
+}
+.about-container img {
+  width: 70%;
+}
+.about-container h3 {
+  font-family: "Alike", serif;
+  font-size: 1.8em;
+  padding: 40px 40px 60px 40px;
+}
+.about-container h4 {
+  font-size: 1.3em;
+  font-family: "Alike", serif;
+  padding: 0 40px 40px 40px;
+  line-height: 1.5em;
+}
+.about-container p.bio {
+  padding: 20px 35px 30px 35px;
+  text-align: left;
+}
+.about-container p.sentiment {
+  padding: 0 35px 80px 35px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/*---Contact Section Styles---*/
+.contact-container {
+  background: #e8eff7;
+  padding-bottom: 60px;
+}
+.contact-container h3 {
+  font-size: 1.8em;
+  font-family: "Alike", serif;
+  padding: 80px 40px 0 40px;
+}
+.contact-container h4 {
+  font-size: 1.3em;
+  font-family: "Alike", serif;
+  padding: 60px 40px 30px 40px;
+}
+.contact-container p {
+  line-height: 1.7em;
+}
+.hire-container p a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #453e4f;
+}
+.contact-container div.copyright p {
+  padding-top: 60px;
+}
+.social-container i {
+  font-size: 1.8em;
+  padding: 15px;
+  margin: 0 10px;
+  color: #453e4f;
+}
+
 /*===Tablet Styles===*/
 @media only screen and (min-width: 768px) {
+  /*---Header Styles---*/
+  header nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 40px;
+  }
+  header nav ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0 80px 0;
+  }
+  header h1 {
+    font-size: 2.6em;
+    padding: 0 80px 80px 80px;
+  }
+  header h2 {
+    font-size: 1.7em;
+    line-height: 1.5em;
+    padding: 0 80px 80px 80px;
+  }
+
+  /*---Projects Section Styles---*/
+
+  .projects-container h3 {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    font-size: 2em;
+  }
   ul.projects-unordered-list {
     display: flex;
     flex-wrap: wrap;
@@ -83,9 +287,124 @@ li.project-list-item a.site-link:hover {
   li.project-list-item a.site-link {
     font-size: 1.3em;
   }
+
+  /*---Skills and Tools Style---*/
+  .skills-section {
+    padding-bottom: 120px;
+  }
+  .skills-section h3 {
+    font-size: 2em;
+    padding: 80px 0 40px 0;
+  }
+  .skills-section h4 {
+    font-size: 1.6em;
+    padding-bottom: 30px;
+  }
+  .skills-section p {
+    margin: 20px;
+  }
+  div.flex-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  div.flex-skills p {
+    font-size: 1.2em;
+    width: 40%;
+  }
+  div.tools h4.tech-heading {
+    padding-top: 40px;
+  }
+
+  /*---About Section Styles---*/
+  .about-container {
+    padding-top: 120px;
+  }
+  .about-container img {
+    width: 50%;
+  }
+  .about-container h3 {
+    font-size: 2em;
+    padding: 80px;
+  }
+  .about-container h4 {
+    font-size: 1.6em;
+    padding: 0 50px 60px 50px;
+    line-height: 1.8em;
+    text-align: left;
+  }
+  .about-container p.bio {
+    font-size: 1.2em;
+    padding: 0 50px 30px 50px;
+  }
+  .about-container p.sentiment {
+    font-size: 1.2em;
+    padding: 0 50px 120px 50px;
+  }
+
+  /*---Contact Section Styles---*/
+  .contact-container {
+    padding-bottom: 80px;
+  }
+  .contact-container h3 {
+    font-size: 2em;
+    padding: 120px 50px 0 50px;
+  }
+  .contact-container h4 {
+    font-size: 1.6em;
+    padding: 0 0 30px 0;
+  }
+  .contact-container p {
+    font-size: 1.2em;
+  }
+  .contact-container div.flex-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 80px 50px 0 50px;
+  }
+  div.hire-container,
+  div.social-container,
+  div.location-container {
+    flex-basis: 32.3%;
+  }
+  .social-container i {
+    font-size: 2.2em;
+  }
+  .contact-container div.copyright p {
+    padding-top: 80px;
+  }
 }
 /*===Desktop Styles===*/
 @media only screen and (min-width: 1200px) {
+  /*---Global Styles---*/
+
+  /*---Header Styles---*/
+  header nav {
+    padding: 0 80px;
+    justify-content: flex-end;
+  }
+  header nav ul {
+    width: 48%;
+  }
+  header h1 {
+    font-size: 3em;
+    padding: 0 80px 40px 80px;
+  }
+  header h2 {
+    font-size: 2em;
+    line-height: 1.5em;
+    padding: 0 80px 140px 80px;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /*---Projects Section Styles---*/
+  .projects-container h3 {
+    padding-top: 140px;
+    font-size: 2.5em;
+  }
   ul.projects-unordered-list {
     margin: 0 30px;
   }
@@ -95,4 +414,78 @@ li.project-list-item a.site-link:hover {
   li.project-list-item p.project-name {
     font-size: 1.8em;
   }
+
+  /*---Skills and Tools Style---*/
+  .skills-section {
+    padding-bottom: 140px;
+  }
+  div.flex-skills p {
+    font-size: 1.2em;
+    width: 28%;
+  }
+  .skills-section h3 {
+    font-size: 2.5em;
+    padding: 100px 0 40px 0;
+  }
+  .skills-section h4 {
+    font-size: 1.8em;
+  }
+
+  /*---About Section Styles---*/
+  .about-container .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 160px 50px;
+  }
+  .about-site-wrapper {
+    max-width: 1450px;
+    margin: 0 auto;
+  }
+  .about-text {
+    width: 50%;
+  }
+  .about-container img {
+    width: 90%;
+  }
+  .about-container h3 {
+    font-size: 2.5em;
+    padding: 0 0 40px 0;
+    text-align: left;
+  }
+  .about-container h4 {
+    font-size: 1.8em;
+    padding: 0 0 60px 0;
+  }
+  .about-container p.bio {
+    padding: 0 0 30px 0;
+  }
+  .about-container p.sentiment {
+    padding: 0;
+  }
+
+  /*---Contact Section Styles---*/
+  .contact-container {
+    padding-bottom: 140px;
+  }
+  .contact-container h3 {
+    font-size: 2.5em;
+    padding: 160px 50px 0 50px;
+  }
+  .contact-container h4 {
+    font-size: 1.8em;
+  }
+  .contact-container div.flex-contact {
+    padding: 80px 150px 0 150px;
+  }
+  .contact-container div.copyright p {
+    padding-top: 60px;
+  }
 }
+
+
+/* fonts
+font-family: 'Alike', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
